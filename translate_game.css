@@ -4,7 +4,7 @@ CMPS3141 - HCI
 PS1 - Translate Game
 Due Date: Nov.10.23
 
-COLLABORATORS: 
+COLLABORATORS: Duane Arzu, Cahlil Tillett
 */
 
 html {
@@ -12,3 +12,39 @@ html {
 }
 
 /* Your CSS here */
+
+h1 {
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, sans-serif;
+    margin: 10px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, sans-serif;
+    margin: 10px;
+    padding: 15px;
+}
+
+span { color: #a6a6a6; }
+
+.lang1 { color: #5c8f6b; }
+.lang2 { color: #472E33; }
+
+table { width: 100%; }
+
+input[type=submit] {
+    width: 40%;
+    background-color: #191012;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+input[type=submit]:hover { background-color: #5c808f; }
+
+.correct span { color: blue; }
+.incorrect span { color: red; }
